@@ -1,13 +1,15 @@
-<template>
-  <div class="container">
-    <card-3D class="card"
-             image="https://i.pinimg.com/564x/f3/91/28/f391287b9b76dd596117ff7383d895cb.jpg"
-             title="I'm a title"
-             description="I'm a description">
+<template class="body">
+  <div class="body">
+    <div class="container">
+      <card-3D class="card"
+              image="https://i.pinimg.com/564x/f3/91/28/f391287b9b76dd596117ff7383d895cb.jpg"
+              title="I'm a title"
+              description="I'm a description">
 
-    </card-3D>
-    <text-Hacker class="text" color="red" text="JE SUIS LE MEILLEUR"></text-Hacker>
-    <card-Screen class="card2" image="image.jpg"></card-Screen>
+      </card-3D>
+      <text-Hacker class="text" color="red" text="JE SUIS LE MEILLEUR"></text-Hacker>
+      <card-Screen class="card2" image="image.jpg"></card-Screen>
+    </div>
   </div>
 </template>
 
@@ -15,6 +17,9 @@
 </script>
 
 <style scoped lang="scss">
+  .body {
+    background-color: rgba(20, 88, 112, 0.3);
+  }
   .container {
     display: flex;
     justify-content: center;
