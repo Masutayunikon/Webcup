@@ -15,11 +15,13 @@ export default defineNuxtConfig({
         // The private keys which are only available server-side
         OPENAI_API_KEY: process.env.OPENAI_API_KEY,
         PORT: process.env.PORT,
+        HOST: process.env.HOST,
         // Keys within public are also exposed client-side
         public: { }
     },
     buildConfig: {
-        port: process.env.PORT
+        port: process.env.PORT,
+        HOST: process.env.HOST,
     },
     tailwindcss: {
         exposeConfig: true,

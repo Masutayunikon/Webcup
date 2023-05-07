@@ -42,7 +42,7 @@
               <!-- Analysez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none container-img">
-                  <img src="/Analysez img.png" alt="Analysez" class="img1 object-cover object-center">
+                  <img src="/analyze.png" alt="Analysez" class="img1 object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-16">
@@ -53,7 +53,7 @@
               <!-- Comprenez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none container-img2">
-                  <img src="/Comprenez img.png" alt="Comprenez" class="img2 object-cover object-center">
+                  <img src="/comprenez.png" alt="Comprenez" class="img2 object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-12">
@@ -64,7 +64,7 @@
               <!-- Visionnez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none container-img3">
-                  <img src="/Visionnez img.png" alt="Visionnez" class="img3 object-cover object-center">
+                  <img src="/visionnez.png" alt="Visionnez" class="img3 object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-16">
