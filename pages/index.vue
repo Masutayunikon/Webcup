@@ -1,7 +1,5 @@
 <template class="body">
-  <div class="body" :style="{
-        backgroundImage: `url('bg-img.png')`,
-    }">
+  <div class="body">
     <div class="container-blob">
       <div class="blob">
         <p class="subtitle-blob">
@@ -130,6 +128,7 @@
 
 <style scoped lang="scss">
   .body {
+    margin-bottom: 500px;
     .discover-button {
       text-align: center;
     }
@@ -223,7 +222,8 @@
       background: #FCE9CF;
       background-image: linear-gradient(45deg, #FCE9CF 0%, #EBA468 100%);
       position: absolute;
-      top: 68%;
+      top: 67%;
+      // padding-bottom: 100px;
     }
     .subtitle-blob {
       color: rgb(20, 88, 112);
