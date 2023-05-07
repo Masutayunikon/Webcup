@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <form >
-            <div class="container content-center">
+            <div class="container">
                 <div class="space-y-12">
                     <div class="mt-6 border-b border-gray-900/10 pb-12">
                         <h2 class="text-base font-semibold leading-7 text-gray-900">Contactez-nous</h2>
@@ -94,16 +94,12 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        // margin-bottom: 100px;
-        // margin-top: 100px;
         margin-left: 25%;
-        // margin-right: 10%;
         border-width: 10px;
         border-radius: 20%;
         width: 50%;
     }
     .text-sm {
-        // color: rgb(9, 255, 0);
         font-size: medium;
     }
     .text-base {

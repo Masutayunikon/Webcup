@@ -74,7 +74,7 @@
     margin-left: 10%;
 }
 .text {
-    font-family: Medium;
+    font-family: medium;
 }
 .container-card {
     display: flex;
