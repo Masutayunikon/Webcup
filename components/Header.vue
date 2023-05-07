@@ -33,7 +33,7 @@
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <div>
-              <a href="#" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold mr-8" aria-current="page">Accueil</a>
+              <a href="/" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold mr-8" aria-current="page">Accueil</a>
             </div>
             <div>
               <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Onirix</a>
@@ -42,7 +42,7 @@
               <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Institut</a>
             </div>
             <div>
-              <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Contact</a>
+              <a href="/contact" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Contact</a>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
     <div class="space-y-1 px-2 pb-3 pt-2">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
       <div>
-        <a href="#" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold navbar" aria-current="page">Accueil</a>
+        <a href="/" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold navbar" aria-current="page">Accueil</a>
       </div>
       <div>
         <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Onirix</a>
@@ -64,7 +64,7 @@
         <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Institut</a>
       </div>
       <div>
-        <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Contact</a>
+        <a href="/contact" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Contact</a>
       </div>
     </div>
   </div>

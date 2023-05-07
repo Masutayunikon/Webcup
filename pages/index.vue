@@ -280,6 +280,7 @@
       aspect-ratio: 10/16;
       border-radius: 25px;
     }
+    ;
   }
 
 </style>
