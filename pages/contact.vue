@@ -111,7 +111,6 @@
         color: rgb(20, 88, 112);
     }
     .body {
-        background-color: rgba(20, 88, 112, 0.3);
         padding-bottom: 100px;
         padding-top: 100px;
     }

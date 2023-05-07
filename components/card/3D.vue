@@ -1,7 +1,7 @@
 <template>
   <div class="card" ref="card">
     <div class="content-card" ref="content">
-      <img v-if="image" :style="{height: title || description ? 'auto' : '100%'}" :src="image" alt="..."/>
+      <img v-if="image" :style="{height: title || description ? '60%' : '100%'}" :src="image" alt="..."/>
       <div v-if="description || title" class="text">
         <h1 v-if="title">{{title}}</h1>
         <h5 v-if="description">{{description}}</h5>

@@ -1,4 +1,4 @@
-<template class="body">
+<template>
   <div class="body">
     <div class="container">
       <card-3D class="card"
@@ -17,9 +17,6 @@
 </script>
 
 <style scoped lang="scss">
-  .body {
-    background-color: rgba(20, 88, 112, 0.3);
-  }
   .container {
     display: flex;
     justify-content: center;
