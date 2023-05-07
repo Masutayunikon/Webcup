@@ -11,9 +11,11 @@
           et son avenir.
         </p>
         <div class="button-container">
-          <button class="button-blob bg-royal-blue">
-            ESSAYEZ ONIRIX
-          </button>
+          <a href="/onirix">
+            <button class="button-blob bg-royal-blue" to="/onirix">
+              ESSAYEZ ONIRIX
+            </button>
+          </a>
         </div>
         <p class="text-blob text-golden-yellow">
           Grâce à une base de données évolutive connectée à une API, l'IA utilise
@@ -78,17 +80,19 @@
         </div>
         <!-- END OF CARDS -->
         <div class="bg-white card-container">
-            <h1 class="text-golden-yellow text-3xl txt font-bold text-center py-4">
-              Vos rêves et vos cauchemars !
-            </h1>
-            <p class="text-royal-blue text-xl text-center txt">
-              Ne soyez plus dans la lune, dès aujourd'hui rêvez les pieds sur Terre
-              grâce aux professionnels de la santé qui vous aideront selon l'analyse Onirix.
-            </p>
-            <div class="button-container">
-              <button class="button-blob bg-royal-blue">
+          <h1 class="text-golden-yellow text-3xl txt font-bold text-center py-4">
+            Vos rêves et vos cauchemars !
+          </h1>
+          <p class="text-royal-blue text-xl text-center txt">
+            Ne soyez plus dans la lune, dès aujourd'hui rêvez les pieds sur Terre
+            grâce aux professionnels de la santé qui vous aideront selon l'analyse Onirix.
+          </p>
+          <div class="button-container">
+            <!-- <a href="/institut"> -->
+              <button class="button-blob bg-royal-blue" to="/institut">
                 Je découvre ici!
               </button>
+            <!-- </a> -->
           </div>
         </div>
       </div>
