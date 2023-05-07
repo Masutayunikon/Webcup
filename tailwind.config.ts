@@ -8,5 +8,8 @@ export default {
         'background': 'rgba(20, 88, 112, 0.3)'
       }
     }
-  }
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ]
 }
