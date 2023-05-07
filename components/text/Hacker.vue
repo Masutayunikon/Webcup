@@ -21,6 +21,9 @@ onMounted(() => {
   const element = textRef.value as HTMLElement;
   element.addEventListener('mouseover', () => {
     let iterations = 0;
+    // check if not null
+    if (textRef.value === null) return;
+
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
     let interval = setInterval(() => {
       textRef.value.innerText;
