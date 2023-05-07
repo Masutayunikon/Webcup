@@ -33,16 +33,16 @@
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <div>
-              <a href="/" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold mr-8" aria-current="page">Accueil</a>
+              <a href="/" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold mr-8" id="accueil" aria-current="page">Accueil</a>
             </div>
             <div>
-              <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Onirix</a>
+              <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8" id="onirix">Onirix</a>
             </div>
             <div>
-              <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Institut</a>
+              <a href="/institut" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8" id="institut">Institut</a>
             </div>
             <div>
-              <a href="/contact" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8">Contact</a>
+              <a href="/contact" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium mr-8" id="contact">Contact</a>
             </div>
           </div>
         </div>
@@ -53,18 +53,17 @@
   <!-- Mobile menu, show/hide based on menu state. -->
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2">
-      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
       <div>
-        <a href="/" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-bold navbar" aria-current="page">Accueil</a>
+        <a href="/" class="bg-gray-900/75 text-golden-yellow rounded-md px-5 py-2 text-xl font-medium navbar" id="accueil" aria-current="page">Accueil</a>
       </div>
       <div>
-        <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Onirix</a>
+        <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium" id="onirix">Onirix</a>
       </div>
       <div>
-        <a href="#" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Institut</a>
+        <a href="/institut" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium" id="institut">Institut</a>
       </div>
       <div>
-        <a href="/contact" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium">Contact</a>
+        <a href="/contact" class="text-golden-yellow hover:bg-gray-700/50 hover:text-white rounded-md px-5 py-2 text-xl font-medium" id="contact">Contact</a>
       </div>
     </div>
   </div>
@@ -78,3 +77,14 @@
   }
 
 </style>
+
+<!-- <script setup lang="ts">
+  var clickButton = document.getElementById("accueil");
+  clickButton?.click();
+
+  function isPress(id: string) {
+    var button = document.getElementById(id)
+
+    button?.className.replace("font-medium", "font-bold");
+  }
+</script> -->

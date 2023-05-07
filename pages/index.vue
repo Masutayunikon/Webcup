@@ -1,4 +1,4 @@
-<template class="body">
+<template>
   <div class="body">
     <div class="container-blob">
       <div class="blob">
