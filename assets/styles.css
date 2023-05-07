@@ -1,5 +1,7 @@
 :root {
-    --primary: blue;
+    --primary: #D48745;
+    --secondary: #145870;
+    --tertiary: #8C9C72;
 }
 
 * {
@@ -7,4 +9,9 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(20, 88, 112, 0.3);
 }

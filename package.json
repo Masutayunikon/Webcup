@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.7",
     "@types/node": "^18",
+    "@types/three": "^0.152.0",
     "nuxt": "^3.4.2",
     "nuxt-icon": "^0.3.3",
     "pug": "^3.0.2",
@@ -20,7 +21,9 @@
   },
   "dependencies": {
     "gsap": "latest",
-    "three": "latest",
-    "troisjs": "latest"
+    "three": "^0.134.0",
+    "troisjs": "^0.3.4",
+    "dotenv": "^16.0.3",
+    "openai": "latest"
   }
 }
