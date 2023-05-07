@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+// import dotenv;
+
 export default defineNuxtConfig({
     // @ts-ignore
     ssr: false,
@@ -16,10 +18,10 @@ export default defineNuxtConfig({
         // Keys within public are also exposed client-side
         public: { }
     },
-    tailwindcss: {
-        exposeConfig: true
-    },
     buildConfig: {
         port: process.env.PORT
-    }
+    },
+    tailwindcss: {
+        exposeConfig: true,
+    },
 })
