@@ -31,7 +31,7 @@
               <!-- Décodez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none">
-                  <img src="~/assets/D_img.png" alt="Decodez" class="img object-cover object-center">
+                  <img src="/D_img.png" alt="Decodez" class="img object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-16">
@@ -42,7 +42,7 @@
               <!-- Analysez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none container-img">
-                  <img src="~/assets/Analysez img.png" alt="Analysez" class="img1 object-cover object-center">
+                  <img src="/Analysez img.png" alt="Analysez" class="img1 object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-16">
@@ -53,7 +53,7 @@
               <!-- Comprenez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none container-img2">
-                  <img src="~/assets/Comprenez img.png" alt="Comprenez" class="img2 object-cover object-center">
+                  <img src="/Comprenez img.png" alt="Comprenez" class="img2 object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-12">
@@ -64,7 +64,7 @@
               <!-- Visionnez... -->
               <div class="group relative bg-white card">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden lg:aspect-none container-img3">
-                  <img src="~/assets/Visionnez img.png" alt="Visionnez" class="img3 object-cover object-center">
+                  <img src="/Visionnez img.png" alt="Visionnez" class="img3 object-cover object-center">
                 </div>
                 <div>
                   <p class="text-4xl text-royal-blue px-16">
@@ -86,11 +86,11 @@
             grâce aux professionnels de la santé qui vous aideront selon l'analyse Onirix.
           </p>
           <div class="button-container">
-            <!-- <a href="/institut"> -->
-              <button class="button-blob bg-royal-blue" to="/institut">
+            <a href="/institut">
+              <button class="button-blob bg-royal-blue">
                 Je découvre ici!
               </button>
-            <!-- </a> -->
+            </a>
           </div>
         </div>
       </div>
@@ -183,6 +183,7 @@
       background-position: center;
       background-size: 130%;
       align-items: flex-end;
+      margin-bottom: 60%;
     }
     .image {
       position: absolute;
