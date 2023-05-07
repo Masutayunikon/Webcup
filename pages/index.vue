@@ -238,8 +238,7 @@ const test = async () => {
       background: #FCE9CF;
       background-image: linear-gradient(45deg, #FCE9CF 0%, #EBA468 100%);
       position: absolute;
-      top: 67%;
-      // padding-bottom: 100px;
+      top: 640px;
     }
     .subtitle-blob {
       color: rgb(20, 88, 112);
